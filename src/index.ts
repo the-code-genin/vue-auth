@@ -72,5 +72,5 @@ class Plugin<T extends Object> {
     }
 }
 
-
+export * from './types/common/interfaces';
 export default Plugin;
