@@ -1,0 +1,20 @@
+{
+  "name": "vue-auth",
+  "version": "1.0.0",
+  "description": "JWT API authentication package for VueJS apps.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Mohammed Adekunle <adekunle3317@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-router": "^3.5.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
