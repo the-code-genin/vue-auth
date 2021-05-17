@@ -1,7 +1,7 @@
 {
   "name": "@the_code_genin/vue-auth",
-  "version": "1.0.0",
-  "description": "JWT API authentication package for VueJS apps.",
+  "version": "1.0.1",
+  "description": "API token-based authentication package for VueJS apps.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
