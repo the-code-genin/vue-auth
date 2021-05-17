@@ -1,14 +1,13 @@
 {
   "name": "@the_code_genin/vue-auth",
   "version": "1.0.1",
-  "description": "API token-based authentication package for VueJS apps.",
+  "description": "A package to integrate token-based API authentication protocols like JWT in VueJS apps.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "author": "Mohammed Adekunle <adekunle3317@gmail.com>",
-  "prepublish": "tsc",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.12",
@@ -17,5 +16,9 @@
   },
   "devDependencies": {
     "typescript": "^4.2.4"
+  },
+  "prepublish": "tsc",
+  "publishConfig": {
+    "access": "public"
   }
 }
