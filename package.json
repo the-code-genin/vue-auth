@@ -8,6 +8,7 @@
     "build": "tsc"
   },
   "author": "Mohammed Adekunle <adekunle3317@gmail.com>",
+  "prepublish": "tsc",
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.12",
