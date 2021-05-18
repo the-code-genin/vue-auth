@@ -2,7 +2,7 @@ import Vue from 'vue'
 import { VueConstructor } from 'vue/types/umd'
 import { Route } from 'vue-router'
 import StoreModule from './store'
-import { PluginOptions } from './types';
+import PluginOptions from './lib/plugin-options';
 
 
 class Plugin<T extends Object> {

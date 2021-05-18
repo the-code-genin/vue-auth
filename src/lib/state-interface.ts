@@ -1,4 +1,4 @@
-export interface StateInterface {
+export default interface StateInterface {
     user: object|null
 }
 
