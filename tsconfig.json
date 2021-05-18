@@ -5,11 +5,7 @@
     "lib": ["es2017", "es7", "es6", "dom"],
     "outDir": "dist",
     "strict": true,
-    "esModuleInterop": true,
-    "typeRoots": [
-      "./src/types",
-      "./node_modules/@types"
-    ]
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules",
