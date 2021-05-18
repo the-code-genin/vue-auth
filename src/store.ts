@@ -1,4 +1,4 @@
-import { StateInterface } from "./types/common/interfaces";
+import { StateInterface } from "./types/common";
 
 let state: StateInterface = {
     user: null

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import { VueConstructor } from 'vue/types/umd'
 import { Route } from 'vue-router'
 import StoreModule from './store'
-import { PluginOptions } from './types/common/interfaces';
+import { PluginOptions } from './types/common';
 
 
 class Plugin<T extends Object> {
@@ -72,5 +72,5 @@ class Plugin<T extends Object> {
     }
 }
 
-export * from './types/common/interfaces';
+export * from './types/common';
 export default Plugin;
